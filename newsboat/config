@@ -1,0 +1,13 @@
+browser = lynx
+browser $browser
+
+macro y set browser "mpv"; opne-in-browser; set browser $browser
+
+color listnormal cyan default
+#color listfocus black yellow standout bold
+color listnormal_unread cyan default bold
+color info red black bold
+color article white default bold
+
+highlight all "---.*---" yellow
+highlight feedlist ".*(0/0))" black
