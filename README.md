@@ -13,9 +13,8 @@ Every shortcut, workspace behavior, and UI element has been intentionally placed
 ## 🛠️ Key Highlights
 
 * **Window Manager:** `i3-gaps` / `i3wm` (Tiled, highly efficient window management)
-* **Terminal Emulator:** (Buraya kullandığın terminali yaz, örn: `Alacritty` veya `urxvt`)
-* **App Launcher:** (Buraya kullandığın launcher'ı yaz, örn: `rofi` veya `dmenu`)
-* **Status Bar:** (Buraya kullandığın bar'ı yaz, örn: `polybar` veya `i3status`)
+* **App Launcher:** `dmenu`
+* **Status Bar:** `i3status`
 * **Hardware Optimization:** Specifically mapped keys and resource management designed to keep the legacy T420 running exceptionally fast and cool.
 
 ## ⚙️ Structure
