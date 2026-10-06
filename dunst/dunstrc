@@ -1,0 +1,33 @@
+[global]
+    # fullscreen = show
+    width = 300
+    height = 100
+    # Ekranın sağ üst köşesinde, Polybar'ın biraz altında çıksın
+    offset = 20x40
+    origin = top-right
+    font = monospace 10
+    frame_width = 1
+    frame_color = "#333333"
+    separator_color = "#333333"
+    # Bildirimlerin köşeleri sivri olsun (0)
+    corner_radius = 0
+
+[urgency_low]
+    # Düşük öncelikli bildirimler (Ses değişimi vs.)
+    background = "#111111"
+    foreground = "#888888"
+    timeout = 3
+
+[urgency_normal]
+    # Normal bildirimler (Bluetooth vs.)
+    background = "#111111"
+    foreground = "#FFFFFF"
+    timeout = 5
+
+[urgency_critical]
+    # Kritik bildirimler (Şarj %10'un altına inince)
+    background = "#CC0000"
+    foreground = "#FFFFFF"
+    frame_color = "#FFFFFF"
+    # timeout = 0 demek sen tıklayıp kapatana kadar ekranda kalır demek
+    timeout = 0
